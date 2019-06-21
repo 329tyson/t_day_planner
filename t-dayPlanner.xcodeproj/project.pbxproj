@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		8F9403B322BA65CB00992B2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9403B222BA65CB00992B2A /* AppDelegate.swift */; };
-		8F9403B522BA65CB00992B2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9403B422BA65CB00992B2A /* ViewController.swift */; };
 		8F9403B822BA65CB00992B2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9403B622BA65CB00992B2A /* Main.storyboard */; };
 		8F9403BA22BA65CD00992B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F9403B922BA65CD00992B2A /* Assets.xcassets */; };
-		8F9403BD22BA65CD00992B2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9403BB22BA65CD00992B2A /* LaunchScreen.storyboard */; };
 		8F9403C822BA65CD00992B2A /* t_dayPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9403C722BA65CD00992B2A /* t_dayPlannerTests.swift */; };
 		8F9403D322BA65CD00992B2A /* t_dayPlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9403D222BA65CD00992B2A /* t_dayPlannerUITests.swift */; };
+		8F9403E122BA705900992B2A /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9403E022BA705900992B2A /* ListViewController.swift */; };
+		8F9403E322BA727900992B2A /* RideInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9403E222BA727900992B2A /* RideInfo.swift */; };
+		8F9403E522BA85D000992B2A /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9403E422BA85D000992B2A /* AddViewController.swift */; };
+		8F9403E722BA9F5B00992B2A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9403E622BA9F5B00992B2A /* DetailViewController.swift */; };
+		8F9403E922BAA23000992B2A /* Transportation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9403E822BAA23000992B2A /* Transportation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +39,8 @@
 /* Begin PBXFileReference section */
 		8F9403AF22BA65CB00992B2A /* t-dayPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "t-dayPlanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9403B222BA65CB00992B2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8F9403B422BA65CB00992B2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8F9403B722BA65CB00992B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F9403B922BA65CD00992B2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8F9403BC22BA65CD00992B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F9403BE22BA65CD00992B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F9403C322BA65CD00992B2A /* t-dayPlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "t-dayPlannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9403C722BA65CD00992B2A /* t_dayPlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = t_dayPlannerTests.swift; sourceTree = "<group>"; };
@@ -47,6 +48,11 @@
 		8F9403CE22BA65CD00992B2A /* t-dayPlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "t-dayPlannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9403D222BA65CD00992B2A /* t_dayPlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = t_dayPlannerUITests.swift; sourceTree = "<group>"; };
 		8F9403D422BA65CD00992B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F9403E022BA705900992B2A /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		8F9403E222BA727900992B2A /* RideInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideInfo.swift; sourceTree = "<group>"; };
+		8F9403E422BA85D000992B2A /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		8F9403E622BA9F5B00992B2A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8F9403E822BAA23000992B2A /* Transportation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transportation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +104,13 @@
 			isa = PBXGroup;
 			children = (
 				8F9403B222BA65CB00992B2A /* AppDelegate.swift */,
-				8F9403B422BA65CB00992B2A /* ViewController.swift */,
 				8F9403B622BA65CB00992B2A /* Main.storyboard */,
+				8F9403E622BA9F5B00992B2A /* DetailViewController.swift */,
+				8F9403E422BA85D000992B2A /* AddViewController.swift */,
+				8F9403E222BA727900992B2A /* RideInfo.swift */,
+				8F9403E022BA705900992B2A /* ListViewController.swift */,
+				8F9403E822BAA23000992B2A /* Transportation.swift */,
 				8F9403B922BA65CD00992B2A /* Assets.xcassets */,
-				8F9403BB22BA65CD00992B2A /* LaunchScreen.storyboard */,
 				8F9403BE22BA65CD00992B2A /* Info.plist */,
 			);
 			path = "t-dayPlanner";
@@ -229,7 +238,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F9403BD22BA65CD00992B2A /* LaunchScreen.storyboard in Resources */,
 				8F9403BA22BA65CD00992B2A /* Assets.xcassets in Resources */,
 				8F9403B822BA65CB00992B2A /* Main.storyboard in Resources */,
 			);
@@ -256,8 +264,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F9403B522BA65CB00992B2A /* ViewController.swift in Sources */,
+				8F9403E922BAA23000992B2A /* Transportation.swift in Sources */,
+				8F9403E322BA727900992B2A /* RideInfo.swift in Sources */,
 				8F9403B322BA65CB00992B2A /* AppDelegate.swift in Sources */,
+				8F9403E722BA9F5B00992B2A /* DetailViewController.swift in Sources */,
+				8F9403E522BA85D000992B2A /* AddViewController.swift in Sources */,
+				8F9403E122BA705900992B2A /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +311,6 @@
 				8F9403B722BA65CB00992B2A /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8F9403BB22BA65CD00992B2A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8F9403BC22BA65CD00992B2A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -432,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7N2D8CZ93J;
 				INFOPLIST_FILE = "t-dayPlanner/Info.plist";
@@ -450,6 +455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7N2D8CZ93J;
 				INFOPLIST_FILE = "t-dayPlanner/Info.plist";
