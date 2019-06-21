@@ -14,9 +14,10 @@
 		8F9403D322BA65CD00992B2A /* t_dayPlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9403D222BA65CD00992B2A /* t_dayPlannerUITests.swift */; };
 		8F9403E122BA705900992B2A /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9403E022BA705900992B2A /* ListViewController.swift */; };
 		8F9403E322BA727900992B2A /* RideInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9403E222BA727900992B2A /* RideInfo.swift */; };
-		8F9403E522BA85D000992B2A /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9403E422BA85D000992B2A /* AddViewController.swift */; };
 		8F9403E722BA9F5B00992B2A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9403E622BA9F5B00992B2A /* DetailViewController.swift */; };
 		8F9403E922BAA23000992B2A /* Transportation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9403E822BAA23000992B2A /* Transportation.swift */; };
+		8F9403ED22BD1D6200992B2A /* AddTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9403EC22BD1D6200992B2A /* AddTypeViewController.swift */; };
+		8F9403EF22BD1F0400992B2A /* TypingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9403EE22BD1F0400992B2A /* TypingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +51,10 @@
 		8F9403D422BA65CD00992B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F9403E022BA705900992B2A /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		8F9403E222BA727900992B2A /* RideInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideInfo.swift; sourceTree = "<group>"; };
-		8F9403E422BA85D000992B2A /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		8F9403E622BA9F5B00992B2A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		8F9403E822BAA23000992B2A /* Transportation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transportation.swift; sourceTree = "<group>"; };
+		8F9403EC22BD1D6200992B2A /* AddTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTypeViewController.swift; sourceTree = "<group>"; };
+		8F9403EE22BD1F0400992B2A /* TypingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +107,9 @@
 			children = (
 				8F9403B222BA65CB00992B2A /* AppDelegate.swift */,
 				8F9403B622BA65CB00992B2A /* Main.storyboard */,
+				8F9403EE22BD1F0400992B2A /* TypingViewController.swift */,
 				8F9403E622BA9F5B00992B2A /* DetailViewController.swift */,
-				8F9403E422BA85D000992B2A /* AddViewController.swift */,
+				8F9403EC22BD1D6200992B2A /* AddTypeViewController.swift */,
 				8F9403E222BA727900992B2A /* RideInfo.swift */,
 				8F9403E022BA705900992B2A /* ListViewController.swift */,
 				8F9403E822BAA23000992B2A /* Transportation.swift */,
@@ -264,12 +267,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F9403ED22BD1D6200992B2A /* AddTypeViewController.swift in Sources */,
 				8F9403E922BAA23000992B2A /* Transportation.swift in Sources */,
 				8F9403E322BA727900992B2A /* RideInfo.swift in Sources */,
 				8F9403B322BA65CB00992B2A /* AppDelegate.swift in Sources */,
 				8F9403E722BA9F5B00992B2A /* DetailViewController.swift in Sources */,
-				8F9403E522BA85D000992B2A /* AddViewController.swift in Sources */,
 				8F9403E122BA705900992B2A /* ListViewController.swift in Sources */,
+				8F9403EF22BD1F0400992B2A /* TypingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

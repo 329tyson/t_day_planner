@@ -1,12 +1,9 @@
 import UIKit
 class ListViewController: UITableViewController {
     var dataset = [
-        ("삼성역", "하이퍼커넥트", "06/20", "11:00"),
-        ("신촌역", "현대백화점", "06/23", "13:30"),
-        ("사당역", "11번출구", "06/20", "18:00"),
+        ("을지로역", "패런타워", "6월 22일", "10:00"),
+        ("사당역", "11번출구", "6월 20일", "18:00"),
     ]
-    
-    
     lazy var list: [RideInfo] = {
         var datalist = [RideInfo]()
         for (place, detail_place, date, hour) in self.dataset {
@@ -34,8 +31,8 @@ class ListViewController: UITableViewController {
         let date = cell.viewWithTag(103) as? UILabel
         let hour = cell.viewWithTag(104) as? UILabel
         
-        place?.text = row.place
-        detail_place?.text = row.detail_place
+        place?.text = row.place! + " " + row.detail_place!
+        detail_place?.text = ""
         date?.text = row.date
         hour?.text = row.hour
         
@@ -45,14 +42,15 @@ class ListViewController: UITableViewController {
         guard let dvc = self.storyboard?.instantiateViewController(withIdentifier: "DVC") as? DetailViewController else {
             return
         }
-        NSLog("going in !")
+        let row = self.list[indexPath.row]
+        dvc.title_place = row.place!
         self.present(dvc, animated: true)
     }
     @IBAction func add(_ sender: Any) {
-        guard let avc = self.storyboard?.instantiateViewController(withIdentifier: "AVC") as? AddViewController else {
+        guard let atvc = self.storyboard?.instantiateViewController(withIdentifier: "ATVC") as? AddTypeViewController else {
             return
         }
-        self.present(avc, animated: true)
+        self.present(atvc, animated: true)
     }
     override func viewWillAppear(_ animated: Bool) {
         self.tableView.reloadData()
