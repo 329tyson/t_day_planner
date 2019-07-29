@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C92AB30A116A63D594F168C /* Pods_t_dayPlannerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC94CA65690E8243292BFD0 /* Pods_t_dayPlannerUITests.framework */; };
 		8F9403B322BA65CB00992B2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9403B222BA65CB00992B2A /* AppDelegate.swift */; };
 		8F9403B822BA65CB00992B2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9403B622BA65CB00992B2A /* Main.storyboard */; };
 		8F9403BA22BA65CD00992B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F9403B922BA65CD00992B2A /* Assets.xcassets */; };
@@ -18,6 +19,12 @@
 		8F9403E922BAA23000992B2A /* Transportation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9403E822BAA23000992B2A /* Transportation.swift */; };
 		8F9403ED22BD1D6200992B2A /* AddTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9403EC22BD1D6200992B2A /* AddTypeViewController.swift */; };
 		8F9403EF22BD1F0400992B2A /* TypingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9403EE22BD1F0400992B2A /* TypingViewController.swift */; };
+		8FA4E6C622E2AC28000D12C3 /* TypingCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA4E6C522E2AC28000D12C3 /* TypingCollectionViewController.swift */; };
+		8FA4E6D222E2F44F000D12C3 /* ODsaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA4E6D122E2F44F000D12C3 /* ODsaySDK.framework */; };
+		8FA4E6D822E3536F000D12C3 /* ShowMapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA4E6D722E3536F000D12C3 /* ShowMapController.swift */; };
+		8FF7B72822E3D91000F1FD4E /* newMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF7B72722E3D91000F1FD4E /* newMainViewController.swift */; };
+		B78DA0D295A98031F497EEE8 /* Pods_t_dayPlanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D09E36FE96B6592E47225B23 /* Pods_t_dayPlanner.framework */; };
+		C0C29AC5BF6AEA6CB2420522 /* Pods_t_dayPlannerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D2C63B6AB139BBDD8B91C1 /* Pods_t_dayPlannerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		079CD16B95D60594AA5B07D1 /* Pods-t-dayPlanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-t-dayPlanner.debug.xcconfig"; path = "Target Support Files/Pods-t-dayPlanner/Pods-t-dayPlanner.debug.xcconfig"; sourceTree = "<group>"; };
+		185F378C5B82A2B8A5CFC427 /* Pods-t-dayPlannerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-t-dayPlannerTests.debug.xcconfig"; path = "Target Support Files/Pods-t-dayPlannerTests/Pods-t-dayPlannerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		296B93213D63237AA10639CE /* Pods-t-dayPlanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-t-dayPlanner.release.xcconfig"; path = "Target Support Files/Pods-t-dayPlanner/Pods-t-dayPlanner.release.xcconfig"; sourceTree = "<group>"; };
+		81C11D6AC8DE1ABFDABBE218 /* Pods-t-dayPlannerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-t-dayPlannerUITests.release.xcconfig"; path = "Target Support Files/Pods-t-dayPlannerUITests/Pods-t-dayPlannerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8F9403AF22BA65CB00992B2A /* t-dayPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "t-dayPlanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9403B222BA65CB00992B2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F9403B722BA65CB00992B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -55,6 +66,18 @@
 		8F9403E822BAA23000992B2A /* Transportation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transportation.swift; sourceTree = "<group>"; };
 		8F9403EC22BD1D6200992B2A /* AddTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTypeViewController.swift; sourceTree = "<group>"; };
 		8F9403EE22BD1F0400992B2A /* TypingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingViewController.swift; sourceTree = "<group>"; };
+		8FA4E6C522E2AC28000D12C3 /* TypingCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingCollectionViewController.swift; sourceTree = "<group>"; };
+		8FA4E6CA22E2EDD4000D12C3 /* ODsaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ODsaySDK.framework; path = ../tdayplanner/ODsaySDKforiOS_v1.0/ODsaySDK.framework; sourceTree = "<group>"; };
+		8FA4E6CE22E2F1A4000D12C3 /* ODsaySDKSampleSwift_Swift_h.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ODsaySDKSampleSwift_Swift_h.h; sourceTree = "<group>"; };
+		8FA4E6CF22E2F443000D12C3 /* ODsaySDKforiOS_v1.0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ODsaySDKforiOS_v1.0; sourceTree = "<group>"; };
+		8FA4E6D122E2F44F000D12C3 /* ODsaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ODsaySDK.framework; path = ODsaySDKforiOS_v1.0/ODsaySDK.framework; sourceTree = "<group>"; };
+		8FA4E6D722E3536F000D12C3 /* ShowMapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMapController.swift; sourceTree = "<group>"; };
+		8FF7B72722E3D91000F1FD4E /* newMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newMainViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
+		AA6F172102234AA9501AE845 /* Pods-t-dayPlannerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-t-dayPlannerTests.release.xcconfig"; path = "Target Support Files/Pods-t-dayPlannerTests/Pods-t-dayPlannerTests.release.xcconfig"; sourceTree = "<group>"; };
+		ABC94CA65690E8243292BFD0 /* Pods_t_dayPlannerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_t_dayPlannerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09E36FE96B6592E47225B23 /* Pods_t_dayPlanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_t_dayPlanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D2C63B6AB139BBDD8B91C1 /* Pods_t_dayPlannerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_t_dayPlannerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4A0C1E003446B5EF7979C20 /* Pods-t-dayPlannerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-t-dayPlannerUITests.debug.xcconfig"; path = "Target Support Files/Pods-t-dayPlannerUITests/Pods-t-dayPlannerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +85,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FA4E6D222E2F44F000D12C3 /* ODsaySDK.framework in Frameworks */,
+				B78DA0D295A98031F497EEE8 /* Pods_t_dayPlanner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0C29AC5BF6AEA6CB2420522 /* Pods_t_dayPlannerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C92AB30A116A63D594F168C /* Pods_t_dayPlannerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +116,8 @@
 				8F9403C622BA65CD00992B2A /* t-dayPlannerTests */,
 				8F9403D122BA65CD00992B2A /* t-dayPlannerUITests */,
 				8F9403B022BA65CB00992B2A /* Products */,
+				8FA4E6C922E2EDD3000D12C3 /* Frameworks */,
+				E6EB5575E67F9E41F3DCDAA6 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +136,9 @@
 			children = (
 				8F9403B222BA65CB00992B2A /* AppDelegate.swift */,
 				8F9403B622BA65CB00992B2A /* Main.storyboard */,
+				8FF7B72722E3D91000F1FD4E /* newMainViewController.swift */,
+				8FA4E6D722E3536F000D12C3 /* ShowMapController.swift */,
+				8FA4E6C522E2AC28000D12C3 /* TypingCollectionViewController.swift */,
 				8F9403EE22BD1F0400992B2A /* TypingViewController.swift */,
 				8F9403E622BA9F5B00992B2A /* DetailViewController.swift */,
 				8F9403EC22BD1D6200992B2A /* AddTypeViewController.swift */,
@@ -115,6 +147,7 @@
 				8F9403E822BAA23000992B2A /* Transportation.swift */,
 				8F9403B922BA65CD00992B2A /* Assets.xcassets */,
 				8F9403BE22BA65CD00992B2A /* Info.plist */,
+				8FA4E6CE22E2F1A4000D12C3 /* ODsaySDKSampleSwift_Swift_h.h */,
 			);
 			path = "t-dayPlanner";
 			sourceTree = "<group>";
@@ -137,6 +170,32 @@
 			path = "t-dayPlannerUITests";
 			sourceTree = "<group>";
 		};
+		8FA4E6C922E2EDD3000D12C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FA4E6D122E2F44F000D12C3 /* ODsaySDK.framework */,
+				8FA4E6CF22E2F443000D12C3 /* ODsaySDKforiOS_v1.0 */,
+				8FA4E6CA22E2EDD4000D12C3 /* ODsaySDK.framework */,
+				D09E36FE96B6592E47225B23 /* Pods_t_dayPlanner.framework */,
+				D4D2C63B6AB139BBDD8B91C1 /* Pods_t_dayPlannerTests.framework */,
+				ABC94CA65690E8243292BFD0 /* Pods_t_dayPlannerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6EB5575E67F9E41F3DCDAA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				079CD16B95D60594AA5B07D1 /* Pods-t-dayPlanner.debug.xcconfig */,
+				296B93213D63237AA10639CE /* Pods-t-dayPlanner.release.xcconfig */,
+				185F378C5B82A2B8A5CFC427 /* Pods-t-dayPlannerTests.debug.xcconfig */,
+				AA6F172102234AA9501AE845 /* Pods-t-dayPlannerTests.release.xcconfig */,
+				E4A0C1E003446B5EF7979C20 /* Pods-t-dayPlannerUITests.debug.xcconfig */,
+				81C11D6AC8DE1ABFDABBE218 /* Pods-t-dayPlannerUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F9403D722BA65CD00992B2A /* Build configuration list for PBXNativeTarget "t-dayPlanner" */;
 			buildPhases = (
+				6BD43AC9649CE46F8ED2E2D5 /* [CP] Check Pods Manifest.lock */,
 				8F9403AB22BA65CB00992B2A /* Sources */,
 				8F9403AC22BA65CB00992B2A /* Frameworks */,
 				8F9403AD22BA65CB00992B2A /* Resources */,
+				1BB7F90D1487CD823A464361 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F9403DA22BA65CD00992B2A /* Build configuration list for PBXNativeTarget "t-dayPlannerTests" */;
 			buildPhases = (
+				C2787008EA1192AA3B3057E7 /* [CP] Check Pods Manifest.lock */,
 				8F9403BF22BA65CD00992B2A /* Sources */,
 				8F9403C022BA65CD00992B2A /* Frameworks */,
 				8F9403C122BA65CD00992B2A /* Resources */,
@@ -179,6 +241,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F9403DD22BA65CD00992B2A /* Build configuration list for PBXNativeTarget "t-dayPlannerUITests" */;
 			buildPhases = (
+				89D4AF9261697AA7CADDD4DF /* [CP] Check Pods Manifest.lock */,
 				8F9403CA22BA65CD00992B2A /* Sources */,
 				8F9403CB22BA65CD00992B2A /* Frameworks */,
 				8F9403CC22BA65CD00992B2A /* Resources */,
@@ -262,6 +325,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1BB7F90D1487CD823A464361 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-t-dayPlanner/Pods-t-dayPlanner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-t-dayPlanner/Pods-t-dayPlanner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-t-dayPlanner/Pods-t-dayPlanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BD43AC9649CE46F8ED2E2D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-t-dayPlanner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89D4AF9261697AA7CADDD4DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-t-dayPlannerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2787008EA1192AA3B3057E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-t-dayPlannerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8F9403AB22BA65CB00992B2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -269,9 +418,12 @@
 			files = (
 				8F9403ED22BD1D6200992B2A /* AddTypeViewController.swift in Sources */,
 				8F9403E922BAA23000992B2A /* Transportation.swift in Sources */,
+				8FF7B72822E3D91000F1FD4E /* newMainViewController.swift in Sources */,
+				8FA4E6D822E3536F000D12C3 /* ShowMapController.swift in Sources */,
 				8F9403E322BA727900992B2A /* RideInfo.swift in Sources */,
 				8F9403B322BA65CB00992B2A /* AppDelegate.swift in Sources */,
 				8F9403E722BA9F5B00992B2A /* DetailViewController.swift in Sources */,
+				8FA4E6C622E2AC28000D12C3 /* TypingCollectionViewController.swift in Sources */,
 				8F9403E122BA705900992B2A /* ListViewController.swift in Sources */,
 				8F9403EF22BD1F0400992B2A /* TypingViewController.swift in Sources */,
 			);
@@ -438,18 +590,25 @@
 		};
 		8F9403D822BA65CD00992B2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 079CD16B95D60594AA5B07D1 /* Pods-t-dayPlanner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7N2D8CZ93J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ODsaySDKforiOS_v1.0",
+				);
 				INFOPLIST_FILE = "t-dayPlanner/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "MaaS.t-dayPlanner";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = maas.tdayplanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ODsaySDKSampleSwift_Swift_h.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -457,18 +616,25 @@
 		};
 		8F9403D922BA65CD00992B2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 296B93213D63237AA10639CE /* Pods-t-dayPlanner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7N2D8CZ93J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ODsaySDKforiOS_v1.0",
+				);
 				INFOPLIST_FILE = "t-dayPlanner/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "MaaS.t-dayPlanner";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = maas.tdayplanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ODsaySDKSampleSwift_Swift_h.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -476,6 +642,7 @@
 		};
 		8F9403DB22BA65CD00992B2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 185F378C5B82A2B8A5CFC427 /* Pods-t-dayPlannerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +664,7 @@
 		};
 		8F9403DC22BA65CD00992B2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA6F172102234AA9501AE845 /* Pods-t-dayPlannerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -518,6 +686,7 @@
 		};
 		8F9403DE22BA65CD00992B2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4A0C1E003446B5EF7979C20 /* Pods-t-dayPlannerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -538,6 +707,7 @@
 		};
 		8F9403DF22BA65CD00992B2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81C11D6AC8DE1ABFDABBE218 /* Pods-t-dayPlannerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
